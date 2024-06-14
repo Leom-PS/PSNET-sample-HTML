@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RC-QuickTest - PS.NET sample</title>
+    <meta property="og:title" content="RC-QuickTest - PS.NET sample" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: "Arial";
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./rc-quick-test.css" rel="stylesheet" />
+
+      <div class="rc-quick-test-container">
+        <div class="rc-quick-test-pro-header">
+          <div class="rc-quick-test-group4846">
+            <img
+              alt="LogosPortswigger7922"
+              src="public/external/logosportswigger7922-np5.svg"
+              class="rc-quick-test-logos-portswigger"
+            />
+          </div>
+          <div class="rc-quick-test-navigation">
+            <div class="rc-quick-test-products">
+              <span class="rc-quick-test-text BodyLarge">
+                <span>Products</span>
+              </span>
+              <img
+                alt="ChevronDown7922"
+                src="public/external/chevrondown7922-hqw.svg"
+                class="rc-quick-test-chevron-down"
+              />
+            </div>
+            <div class="rc-quick-test-solutions">
+              <span class="rc-quick-test-text02 BodyLarge">
+                <span>Solutions</span>
+              </span>
+              <img
+                alt="ChevronDown7922"
+                src="public/external/chevrondown7922-eswh.svg"
+                class="rc-quick-test-chevron-down01"
+              />
+            </div>
+            <div class="rc-quick-test-research">
+              <span class="rc-quick-test-text04 BodyLarge">
+                <span>Research</span>
+              </span>
+            </div>
+            <div class="rc-quick-test-academy">
+              <span class="rc-quick-test-text06 BodyLarge">
+                <span>Academy</span>
+              </span>
+            </div>
+            <div class="rc-quick-test-support">
+              <span class="rc-quick-test-text08 BodyLarge">
+                <span>Support</span>
+              </span>
+              <img
+                alt="ChevronDown7922"
+                src="public/external/chevrondown7922-j4lk.svg"
+                class="rc-quick-test-chevron-down02"
+              />
+            </div>
+            <div class="rc-quick-test-resources">
+              <span class="rc-quick-test-text10 BodyLarge">
+                <span>Resources</span>
+              </span>
+              <img
+                alt="ChevronDown7922"
+                src="public/external/chevrondown7922-zcdu1.svg"
+                class="rc-quick-test-chevron-down03"
+              />
+            </div>
+            <button class="rc-quick-test-button">
+              <span class="rc-quick-test-text12 BodyLargeBold">
+                <span>Login</span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="rc-quick-test-container01">
+          <div class="rc-quick-test-container02">
+            <div class="rc-quick-test-bannercontent">
+              <div class="rc-quick-test-frame4846">
+                <div class="rc-quick-test-frame5183">
+                  <div class="rc-quick-test-frame5181">
+                    <div class="rc-quick-test-frame5180">
+                      <span class="rc-quick-test-text14 DisplayDisplay1">
+                        <span>Test like a Pro.</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <span class="rc-quick-test-text16 HeadingHeading4Light">
+                  <span>
+                    Hands-on security testers need the best tools for the
+                    job. Tools you have faith in, and enjoy using all day long.
+                  </span>
+                  <br />
+                  <span>The tools that other professionals trust.</span>
+                </span>
+                <div class="rc-quick-test-frame4847">
+                  <button class="rc-quick-test-button1">
+                    <span class="rc-quick-test-text20 BodyLargeBold">
+                      <span>Try for free</span>
+                    </span>
+                  </button>
+                  <button class="rc-quick-test-button2">
+                    <span class="rc-quick-test-text22 BodyLargeBold">
+                      <span>Buy - $399</span>
+                    </span>
+                    <img
+                      alt="ChevronRightI121"
+                      src="public/external/chevronrighti121-9g5l.svg"
+                      class="rc-quick-test-chevron-right"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div class="rc-quick-test-tasksubmenu">
+                <div class="rc-quick-test-tasksubmenu1">
+                  <div class="rc-quick-test-task-item-v2">
+                    <div class="rc-quick-test-task-item-v2local">
+                      <div class="rc-quick-test-task-item-v21">
+                        <div class="rc-quick-test-task-itemmastertemplate-v2">
+                          <div class="rc-quick-test-frame4869">
+                            <div class="rc-quick-test-header">
+                              <div class="rc-quick-test-frame4861">
+                                <div class="rc-quick-test-container03">
+                                  <span class="rc-quick-test-text24">
+                                    <span class="rc-quick-test-text25">
+                                      3. Crawl and audit
+                                    </span>
+                                    <span>of ginandjuice.shop</span>
+                                  </span>
+                                </div>
+                              </div>
+                              <div class="rc-quick-test-frame4860">
+                                <img
+                                  alt="ButtonsI121"
+                                  src="public/external/buttonsi121-vc5.svg"
+                                  class="rc-quick-test-buttons"
+                                />
+                                <div class="rc-quick-test-frame48611">
+                                  <button class="rc-quick-test-buttons1">
+                                    <img
+                                      alt="IconI121"
+                                      src="public/external/iconi121-jugz.svg"
+                                      class="rc-quick-test-icon"
+                                    />
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="rc-quick-test-frame4880">
+                            <div class="rc-quick-test-frame4879">
+                              <div class="rc-quick-test-config">
+                                <span class="rc-quick-test-text27 BodyRegular">
+                                  <span>Crawl and Audit – Lightweight</span>
+                                </span>
+                              </div>
+                              <div class="rc-quick-test-progress">
+                                <img
+                                  alt="Rectangle460I121"
+                                  src="public/external/rectangle460i121-kzal-200h.png"
+                                  class="rc-quick-test-rectangle460"
+                                />
+                              </div>
+                              <div class="rc-quick-test-status">
+                                <div class="rc-quick-test-icons">
+                                  <img
+                                    alt="IconI121"
+                                    src="public/external/iconi121-3fzo.svg"
+                                    class="rc-quick-test-icon1"
+                                  />
+                                </div>
+                                <span class="rc-quick-test-text29 BodyRegular">
+                                  <span>
+                                    Auditing (estimated 2 minutes remaining)
+                                  </span>
+                                </span>
+                              </div>
+                              <div class="rc-quick-test-current-url">
+                                <div class="rc-quick-test-icons1">
+                                  <img
+                                    alt="UnionI121"
+                                    src="public/external/unioni121-sxv.svg"
+                                    class="rc-quick-test-union"
+                                  />
+                                </div>
+                                <span class="rc-quick-test-text31 BodyRegular">
+                                  <span>
+                                    https://ginandju....catalog/search/9
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                            <div class="rc-quick-test-frame48801">
+                              <div class="rc-quick-test-config1">
+                                <span class="rc-quick-test-text33 BodyRegular">
+                                  <span>Issues:</span>
+                                </span>
+                                <div class="rc-quick-test-frame4868">
+                                  <div class="rc-quick-test-frame4858">
+                                    <div class="rc-quick-test-datacounter">
+                                      <span
+                                        class="rc-quick-test-text35 SmallBold"
+                                      >
+                                        <span>12</span>
+                                      </span>
+                                    </div>
+                                    <div class="rc-quick-test-datacounter1">
+                                      <span
+                                        class="rc-quick-test-text37 SmallBold"
+                                      >
+                                        <span>12</span>
+                                      </span>
+                                    </div>
+                                    <div class="rc-quick-test-datacounter2">
+                                      <span
+                                        class="rc-quick-test-text39 SmallBold"
+                                      >
+                                        0
+                                      </span>
+                                    </div>
+                                    <div class="rc-quick-test-datacounter3">
+                                      <span
+                                        class="rc-quick-test-text40 SmallBold"
+                                      >
+                                        <span>12</span>
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="rc-quick-test-frame4865">
+                                <div class="rc-quick-test-frame4866"></div>
+                              </div>
+                              <div class="rc-quick-test-frame48661">
+                                <div class="rc-quick-test-frame48662"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rc-quick-test-task-item-v22">
+                    <div class="rc-quick-test-task-item-v2local1">
+                      <div class="rc-quick-test-task-item-v23">
+                        <div class="rc-quick-test-task-itemmastertemplate-v21">
+                          <div class="rc-quick-test-frame48691">
+                            <div class="rc-quick-test-header1">
+                              <div class="rc-quick-test-frame48612">
+                                <span class="rc-quick-test-text42">
+                                  <span class="rc-quick-test-text43">
+                                    4. Crawl
+                                  </span>
+                                  <span>of ginandjuice.shop</span>
+                                </span>
+                              </div>
+                              <div class="rc-quick-test-frame48601">
+                                <img
+                                  alt="ButtonsI121"
+                                  src="public/external/buttonsi121-pkai.svg"
+                                  class="rc-quick-test-buttons2"
+                                />
+                                <div class="rc-quick-test-frame48613">
+                                  <button class="rc-quick-test-buttons3">
+                                    <img
+                                      alt="IconI121"
+                                      src="public/external/iconi121-1nhg.svg"
+                                      class="rc-quick-test-icon2"
+                                    />
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="rc-quick-test-frame48802">
+                            <div class="rc-quick-test-frame48791">
+                              <div class="rc-quick-test-config2">
+                                <span class="rc-quick-test-text45 BodyRegular">
+                                  <span>Crawl</span>
+                                </span>
+                              </div>
+                              <div class="rc-quick-test-progress1">
+                                <img
+                                  alt="Rectangle460I121"
+                                  src="public/external/rectangle460i121-3o0c-200h.png"
+                                  class="rc-quick-test-rectangle4601"
+                                />
+                              </div>
+                              <div class="rc-quick-test-status1">
+                                <div class="rc-quick-test-icons2">
+                                  <img
+                                    alt="IconI121"
+                                    src="public/external/iconi121-apwo.svg"
+                                    class="rc-quick-test-icon3"
+                                  />
+                                </div>
+                                <span class="rc-quick-test-text47 BodyRegular">
+                                  <span>
+                                    Crawling (estimated 2 minutes remaining)
+                                  </span>
+                                </span>
+                              </div>
+                              <div class="rc-quick-test-current-url1">
+                                <div class="rc-quick-test-icons3">
+                                  <img
+                                    alt="UnionI121"
+                                    src="public/external/unioni121-fjhq.svg"
+                                    class="rc-quick-test-union1"
+                                  />
+                                </div>
+                                <span class="rc-quick-test-text49 BodyRegular">
+                                  <span>
+                                    https://ginandju....catalog/search/9
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                            <div class="rc-quick-test-frame48803"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rc-quick-test-container04">
+            <div class="rc-quick-test-container05">
+              <div class="rc-quick-test-frame5148">
+                <img
+                  alt="Frame51478119"
+                  src="public/external/frame51478119-imwa.svg"
+                  class="rc-quick-test-frame5147"
+                />
+                <span class="rc-quick-test-text51 BodyRegularBold">
+                  “Burp Suite turns our web security testing into a
+                  comprehensive, seamless process”
+                </span>
+              </div>
+            </div>
+            <div class="rc-quick-test-container06">
+              <div class="rc-quick-test-frame51481">
+                <img
+                  alt="Frame51478119"
+                  src="public/external/frame51478119-imwa.svg"
+                  class="rc-quick-test-frame51471"
+                />
+                <span class="rc-quick-test-text52 BodyRegularBold">
+                  “SaaS model and AI integration mark a thrilling evolution for
+                  our security”
+                </span>
+              </div>
+            </div>
+            <div class="rc-quick-test-container07">
+              <div class="rc-quick-test-frame51482">
+                <img
+                  alt="Frame51478119"
+                  src="public/external/frame51478119-imwa.svg"
+                  class="rc-quick-test-frame51472"
+                />
+                <span class="rc-quick-test-text53 BodyRegularBold">
+                  “Burp's automated scanning gives us confidence in our app's
+                  security posture”
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1 class="rc-quick-test-text54">
+          Find out why 97% of users recommend Burp Suite Pro
+        </h1>
+        <div class="rc-quick-test-container08">
+          <div class="rc-quick-test-container09">
+            <div class="rc-quick-test-frame5504">
+              <div class="rc-quick-test-magnifyingglass">
+                <div class="rc-quick-test-frame4836">
+                  <div class="rc-quick-test-group4832">
+                    <img
+                      alt="VectorI542"
+                      src="public/external/vectori542-ichs.svg"
+                      class="rc-quick-test-vector"
+                    />
+                  </div>
+                </div>
+                <div class="rc-quick-test-magnifyingglass1">
+                  <div class="rc-quick-test-group4842">
+                    <img
+                      alt="magnifyingglass2I542"
+                      src="public/external/magnifyingglass2i542-7qo9c.svg"
+                      class="rc-quick-test-magnifyingglass2"
+                    />
+                  </div>
+                </div>
+              </div>
+              <span class="rc-quick-test-text55 HeadingHeading5">
+                Find more vulnerabilities faster
+              </span>
+              <button class="rc-quick-test-button3">
+                <span class="rc-quick-test-text56 BodyLargeBold">
+                  <span>Read more</span>
+                </span>
+                <img
+                  alt="ChevronDownI542"
+                  src="public/external/chevrondowni542-4qyd.svg"
+                  class="rc-quick-test-chevron-down04"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="rc-quick-test-container10">
+            <div class="rc-quick-test-frame55041">
+              <div class="rc-quick-test-professionalapp">
+                <div class="rc-quick-test-frame48361">
+                  <div class="rc-quick-test-group48321">
+                    <img
+                      alt="VectorI542"
+                      src="public/external/vectori542-xwr.svg"
+                      class="rc-quick-test-vector1"
+                    />
+                  </div>
+                </div>
+                <div class="rc-quick-test-group4837">
+                  <img
+                    alt="VectorI542"
+                    src="public/external/vectori542-mv1c.svg"
+                    class="rc-quick-test-vector2"
+                  />
+                  <img
+                    alt="VectorI542"
+                    src="public/external/vectori542-mn6.svg"
+                    class="rc-quick-test-vector3"
+                  />
+                  <img
+                    alt="VectorI542"
+                    src="public/external/vectori542-ihe.svg"
+                    class="rc-quick-test-vector4"
+                  />
+                </div>
+              </div>
+              <span class="rc-quick-test-text58 HeadingHeading5">
+                Test like a pro with the trusted industry toolkit
+              </span>
+              <button class="rc-quick-test-button4">
+                <span class="rc-quick-test-text59 BodyLargeBold">
+                  <span>Read more</span>
+                </span>
+                <img
+                  alt="ChevronDownI542"
+                  src="public/external/chevrondowni542-4qyd.svg"
+                  class="rc-quick-test-chevron-down05"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="rc-quick-test-container11">
+            <div class="rc-quick-test-frame55042">
+              <div class="rc-quick-test-magnifyingglass1">
+                <div class="rc-quick-test-frame48362">
+                  <div class="rc-quick-test-group48322">
+                    <img
+                      alt="VectorI542"
+                      src="public/external/vectori542-ichs.svg"
+                      class="rc-quick-test-vector5"
+                    />
+                  </div>
+                </div>
+                <div class="rc-quick-test-magnifyingglass11">
+                  <div class="rc-quick-test-group48421">
+                    <img
+                      alt="magnifyingglass2I542"
+                      src="public/Icons/Feature icons/rocket.svg"
+                      class="rc-quick-test-magnifyingglass21"
+                    />
+                  </div>
+                </div>
+              </div>
+              <span class="rc-quick-test-text61 HeadingHeading5">
+                Find more vulnerabilities faster
+              </span>
+              <button class="rc-quick-test-button5">
+                <span class="rc-quick-test-text62 BodyLargeBold">
+                  <span>Read more</span>
+                </span>
+                <img
+                  alt="ChevronDownI542"
+                  src="public/external/chevrondowni542-4qyd.svg"
+                  class="rc-quick-test-chevron-down06"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="rc-quick-test-container12">
+          <h1 class="rc-quick-test-text64">
+            Take a tour of Burp Suite Professional
+          </h1>
+          <img
+            alt="Screenshot20240510at163813171"
+            src="public/external/screenshot20240510at163813171-gdab-700h.png"
+            class="rc-quick-test-screenshot20240510at16381"
+          />
+        </div>
+        <h1 class="rc-quick-test-text65">Find more vulnerabilities faster</h1>
+        <div class="rc-quick-test-container13">
+          <div class="rc-quick-test-bannercontent1">
+            <div class="rc-quick-test-container14">
+              <div
+                class="accordion-colour-open-container accordion-colour-open-root-class-name"
+              >
+                <div class="accordion-colour-open-accordion">
+                  <div class="accordion-colour-open-frame101">
+                    <img
+                      alt="ChevronUpI317"
+                      src="public/external/chevronupi317-ylrm.svg"
+                      class="accordion-colour-open-chevron-up"
+                    />
+                    <span class="accordion-colour-open-text BodyLarge">
+                      <span>Automate and save time</span>
+                    </span>
+                  </div>
+                  <div class="accordion-colour-open-accordioncontent">
+                    <span class="accordion-colour-open-text2 BodyLarge">
+                      <span>
+                        Smart automation works in concert with expert-designed
+                        manual tools, to save you time. Optimize your workflow,
+                        and do more of what you do best.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="rc-quick-test-container15">
+                <div class="rc-quick-test-frame48461">
+                  <div class="rc-quick-test-container16">
+                    <div
+                      class="rc-quick-test-type-colour-state-default-expanded-false"
+                    >
+                      <div class="rc-quick-test-frame101">
+                        <img
+                          alt="ChevronDown1174"
+                          src="public/external/chevrondown1174-kvt.svg"
+                          class="rc-quick-test-chevron-down07"
+                        />
+                        <span class="rc-quick-test-text66">
+                          Scan the modern web
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      class="rc-quick-test-type-colour-state-default-expanded-false1"
+                    >
+                      <div class="rc-quick-test-frame1011">
+                        <img
+                          alt="ChevronDown1174"
+                          src="public/external/chevrondown1174-kvt.svg"
+                          class="rc-quick-test-chevron-down08"
+                        />
+                        <span class="rc-quick-test-text67">
+                          Minimize false positives
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              alt="image163174"
+              src="public/external/image163174-1kum-400h.png"
+              class="rc-quick-test-image16"
+            />
+          </div>
+        </div>
+        <div class="rc-quick-test-container17">
+          <h1 class="rc-quick-test-text68">
+            Test like a pro - with the industry's trusted toolkit
+          </h1>
+          <div class="rc-quick-test-container18">
+            <div class="rc-quick-test-bannercontent2">
+              <img
+                alt="Untitled11I317"
+                src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b56d38bc-b39e-4bf0-b545-1da46bcc774e/980c840f-277c-46eb-b3ea-aa0341b71e9a?org_if_sml=180040&amp;force_format=original"
+                class="rc-quick-test-untitled11"
+              />
+              <div class="rc-quick-test-container19"></div>
+              <div class="rc-quick-test-frame48462">
+                <div class="rc-quick-test-container20">
+                  <div
+                    class="accordion-white-open-container accordion-white-open-root-class-name"
+                  >
+                    <div class="accordion-white-open-accordion">
+                      <div class="accordion-white-open-frame101">
+                        <img
+                          alt="ChevronUpI317"
+                          src="public/external/chevronupi317-mdwp.svg"
+                          class="accordion-white-open-chevron-up"
+                        />
+                        <span class="accordion-white-open-text BodyLarge">
+                          <span>Find vulnerabilities others can't</span>
+                        </span>
+                      </div>
+                      <div class="accordion-white-open-accordioncontent">
+                        <span class="accordion-white-open-text2 BodyLarge">
+                          <span class="accordion-white-open-text3">
+                            Push the boundaries of web security testing - by
+                            being first to benefit from the work of&nbsp;
+                          </span>
+                          <span class="accordion-white-open-text4">
+                            PortSwigger Research
+                          </span>
+                          <span>
+                            . Frequent releases keep you ahead of the curve.
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="accordion-white-closed-container accordion-white-closed-root-class-name"
+                  >
+                    <div class="accordion-white-closed-accordion">
+                      <div class="accordion-white-closed-frame101">
+                        <img
+                          alt="ChevronDownI317"
+                          src="public/external/chevrondowni317-9dnr.svg"
+                          class="accordion-white-closed-chevron-down"
+                        />
+                        <span class="accordion-white-closed-text BodyLarge">
+                          <span>Be more productive</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rc-quick-test-container21">
+                    <div class="rc-quick-test-accordion">
+                      <div class="rc-quick-test-frame1012">
+                        <img
+                          alt="ChevronDownI317"
+                          src="public/external/chevrondowni317-9dnr.svg"
+                          class="rc-quick-test-chevron-down09"
+                        />
+                        <span class="rc-quick-test-text69 BodyLarge">
+                          Share your findings more easily
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rc-quick-test-container22">
+                    <div class="rc-quick-test-accordion1"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1 class="rc-quick-test-text70">Extend your capabilities</h1>
+        <div class="rc-quick-test-container23">
+          <div class="rc-quick-test-bannercontent3">
+            <div class="rc-quick-test-container24"></div>
+            <div class="rc-quick-test-container25">
+              <div class="rc-quick-test-container26">
+                <div class="rc-quick-test-accordion2">
+                  <div class="rc-quick-test-frame1013">
+                    <img
+                      alt="ChevronUpI317"
+                      src="public/external/chevronupi317-ylrm.svg"
+                      class="rc-quick-test-chevron-up"
+                    />
+                    <span class="rc-quick-test-text71">
+                      Adapt your toolkit to suit your needs
+                    </span>
+                  </div>
+                  <div class="rc-quick-test-accordioncontent">
+                    <span class="rc-quick-test-text72">
+                      Share in a wealth of knowledge, extend Burp Scanner with
+                      BChecks, and access hundreds of pre-written&nbsp;BApp
+                      extensions, as a member of Burp Suite Professional's huge
+                      user community.
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="rc-quick-test-container27">
+                <div class="rc-quick-test-frame48463">
+                  <div class="rc-quick-test-container28">
+                    <div
+                      class="rc-quick-test-type-colour-state-default-expanded-false2"
+                    >
+                      <div class="rc-quick-test-frame1014">
+                        <img
+                          alt="ChevronDown1174"
+                          src="public/external/chevrondown1174-kvt.svg"
+                          class="rc-quick-test-chevron-down10"
+                        />
+                        <span class="rc-quick-test-text73">
+                          Create your own functionality
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      class="rc-quick-test-type-colour-state-default-expanded-false3"
+                    >
+                      <div class="rc-quick-test-frame1015">
+                        <img
+                          alt="ChevronDown1174"
+                          src="public/external/chevrondown1174-kvt.svg"
+                          class="rc-quick-test-chevron-down11"
+                        />
+                        <span class="rc-quick-test-text74">
+                          Customize the way you work
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              alt="image173175"
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b56d38bc-b39e-4bf0-b545-1da46bcc774e/65871630-ffe5-4aae-9c5c-0b38e567406f?org_if_sml=158412&amp;force_format=original"
+              class="rc-quick-test-image17"
+            />
+          </div>
+        </div>
+        <div class="rc-quick-test-container29">
+          <div class="rc-quick-test-frame5495">
+            <div class="rc-quick-test-frame54951">
+              <div class="rc-quick-test-tags">
+                <span class="rc-quick-test-text75 BodySmallBold">
+                  <span>Scan scheduled</span>
+                </span>
+              </div>
+              <span class="rc-quick-test-text77 HeadingHeading4">
+                <span>Burp Suite roadmap update</span>
+              </span>
+              <span class="rc-quick-test-text79 HeadingHeading6Light">
+                <span>
+                  Get the inside scoop on the latest Burp Suite news, tech, and
+                  interviews - from right across the PortSwigger team.
+                </span>
+              </span>
+              <button class="rc-quick-test-button6">
+                <span class="rc-quick-test-text81 BodyLargeBold">
+                  <span>This is a button</span>
+                </span>
+                <img
+                  alt="ChevronRightI342"
+                  src="https://play.teleporthq.io/static/svg/default-img.svg"
+                  class="rc-quick-test-chevron-right1"
+                />
+              </button>
+            </div>
+            <img
+              alt="pastedImage"
+              src="https://play.teleporthq.io/static/svg/default-img.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+.secondary-button-icon-right-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.secondary-button-icon-right-button {
+  gap: 8px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 12px 24px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(216, 65, 4, 1);
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.secondary-button-icon-right-text {
+  color: rgba(216, 65, 4, 1);
+  height: auto;
+  text-align: center;
+  line-height: 139.9999976158142%;
+}
+.secondary-button-icon-right-chevron-right {
+  width: 16px;
+  height: 16px;
+}

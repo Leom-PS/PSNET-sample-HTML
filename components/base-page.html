@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PS.NET sample</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: "Arial";
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="../style.css" />
+    <div>
+      <link href="./base-page.css" rel="stylesheet" />
+      <div class="base-page-container">
+        <div class="header-container header-root-class-name2">
+          <div class="header-default-header">
+            <img
+              alt="LogosPortswigger7418"
+              src="public/external/logosportswigger7418-lt9.svg"
+              class="header-logos-portswigger"
+            />
+            <div class="header-navigation">
+              <div class="header-products">
+                <span class="header-text BodyLarge"><span>Products</span></span>
+                <img
+                  alt="ChevronDown7418"
+                  src="public/external/chevrondown7418-6lr.svg"
+                  class="header-chevron-down"
+                />
+              </div>
+              <div class="header-solutions">
+                <span class="header-text02 BodyLarge">
+                  <span>Solutions</span>
+                </span>
+                <img
+                  alt="ChevronDown7418"
+                  src="public/external/chevrondown7418-yt2n.svg"
+                  class="header-chevron-down1"
+                />
+              </div>
+              <div class="header-research">
+                <span class="header-text04 BodyLarge">
+                  <span>Research</span>
+                </span>
+              </div>
+              <div class="header-academy">
+                <span class="header-text06 BodyLarge">
+                  <span>Academy</span>
+                </span>
+              </div>
+              <div class="header-support">
+                <span class="header-text08 BodyLarge">
+                  <span>Support</span>
+                </span>
+                <img
+                  alt="ChevronDown7418"
+                  src="public/external/chevrondown7418-m2w.svg"
+                  class="header-chevron-down2"
+                />
+              </div>
+              <div class="header-resources">
+                <span class="header-text10 BodyLarge">
+                  <span>Resources</span>
+                </span>
+                <img
+                  alt="ChevronDown7418"
+                  src="public/external/chevrondown7418-0xbr.svg"
+                  class="header-chevron-down3"
+                />
+              </div>
+              <button class="header-button">
+                <span class="header-text12 BodyLargeBold">
+                  <span>Login</span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <footer class="footer-container footer-root-class-name1">
+          <div class="footer-main">
+            <div class="footer-container1">
+              <div class="footer-container2">
+                <div class="footer-column-title-container">
+                  <p class="footer-column-title-text">
+                    <span>Burp Suite</span>
+                  </p>
+                </div>
+                <span href="burp/vulnerability-scanner.html" class="Footer">
+                  <span>Web vulnerability scanner</span>
+                </span>
+                <span href="burp.html" class="Footer">
+                  <span>Burp Suite Editions</span>
+                </span>
+                <span href="burp/releases.html" class="Footer">
+                  <span>Release Notes</span>
+                </span>
+              </div>
+              <div class="footer-container3">
+                <div class="footer-column-title-container">
+                  <p class="footer-column-title-text">
+                    <span>Vulnerabilities</span>
+                  </p>
+                </div>
+                <span
+                  href="web-security/cross-site-scripting.html"
+                  class="Footer"
+                >
+                  <span>Cross-site scripting (XSS)</span>
+                </span>
+                <span href="web-security/sql-injection.html" class="Footer">
+                  <span>SQL injection</span>
+                </span>
+                <span href="web-security/csrf.html" class="Footer">
+                  <span>Cross-site request forgery</span>
+                </span>
+                <span href="web-security/xxe.html" class="Footer">
+                  <span>XML external entity injection</span>
+                </span>
+                <span
+                  href="web-security/file-path-traversal.html"
+                  class="Footer"
+                >
+                  <span>Directory traversal</span>
+                </span>
+                <span href="web-security/ssrf.html" class="Footer">
+                  <span>Server-side request forgery</span>
+                </span>
+              </div>
+              <div class="footer-container4">
+                <div class="footer-column-title-container">
+                  <p class="footer-column-title-text"><span>Customers</span></p>
+                </div>
+                <span href="organizations.html" class="Footer">
+                  <span>Organizations</span>
+                </span>
+                <span href="testers.html" class="Footer">
+                  <span>Testers</span>
+                </span>
+                <span href="developers.html" class="Footer">
+                  <span>Developers</span>
+                </span>
+              </div>
+              <div class="footer-container5">
+                <div class="footer-column-title-container">
+                  <p class="footer-column-title-text"><span>Company</span></p>
+                </div>
+                <span href="about.html" class="Footer"><span>About</span></span>
+                <span href="careers.html" class="Footer">
+                  <span>Careers</span>
+                </span>
+                <span href="about/contact.html" class="Footer">
+                  <span>Contact</span>
+                </span>
+                <span href="legal.html" class="Footer"><span>Legal</span></span>
+                <span href="privacy.html" class="Footer">
+                  <span>Privacy Notice</span>
+                </span>
+              </div>
+              <div class="footer-container6">
+                <div class="footer-column-title-container">
+                  <p class="footer-column-title-text"><span>Insights</span></p>
+                </div>
+                <span href="web-security.html" class="Footer">
+                  <span>Web Security Academy</span>
+                </span>
+                <span href="blog.html" class="Footer"><span>Blog</span></span>
+                <span href="research.html" class="Footer">
+                  <span>Research</span>
+                </span>
+              </div>
+              <div class="footer-container7">
+                <a
+                  href="https://portswigger.net"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="footer-link"
+                >
+                  <img
+                    alt="image"
+                    src="public/portswigger-logo.svg"
+                    class="footer-image"
+                  />
+                </a>
+                <span
+                  rel="noreferrer"
+                  href="https://twitter.com/Burp_Suite"
+                  class="footer-text20"
+                >
+                  <span></span>
+                  <span>Follow us</span>
+                </span>
+                <p class="Footer footer-text23">
+                  <span>© 2024 PortSwigger Ltd.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ProLanding - PS.NET sample</title>
+    <meta property="og:title" content="ProLanding - PS.NET sample" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: "Arial";
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./pro-landing.css" rel="stylesheet" />
+
+      <div class="pro-landing-container">
+        <div class="pro-landing-pro-header">
+          <div class="pro-landing-group4846">
+            <img
+              alt="LogosPortswigger7922"
+              src="public/external/logosportswigger7922-np5.svg"
+              class="pro-landing-logos-portswigger"
+            />
+          </div>
+          <div class="pro-landing-navigation">
+            <div class="pro-landing-products">
+              <span class="pro-landing-text BodyLarge">
+                <span>Products</span>
+              </span>
+              <img
+                alt="ChevronDown7922"
+                src="public/external/chevrondown7922-hqw.svg"
+                class="pro-landing-chevron-down"
+              />
+            </div>
+            <div class="pro-landing-solutions">
+              <span class="pro-landing-text02 BodyLarge">
+                <span>Solutions</span>
+              </span>
+              <img
+                alt="ChevronDown7922"
+                src="public/external/chevrondown7922-eswh.svg"
+                class="pro-landing-chevron-down01"
+              />
+            </div>
+            <div class="pro-landing-research">
+              <span class="pro-landing-text04 BodyLarge">
+                <span>Research</span>
+              </span>
+            </div>
+            <div class="pro-landing-academy">
+              <span class="pro-landing-text06 BodyLarge">
+                <span>Academy</span>
+              </span>
+            </div>
+            <div class="pro-landing-support">
+              <span class="pro-landing-text08 BodyLarge">
+                <span>Support</span>
+              </span>
+              <img
+                alt="ChevronDown7922"
+                src="public/external/chevrondown7922-j4lk.svg"
+                class="pro-landing-chevron-down02"
+              />
+            </div>
+            <div class="pro-landing-resources">
+              <span class="pro-landing-text10 BodyLarge">
+                <span>Resources</span>
+              </span>
+              <img
+                alt="ChevronDown7922"
+                src="public/external/chevrondown7922-zcdu1.svg"
+                class="pro-landing-chevron-down03"
+              />
+            </div>
+            <button class="pro-landing-button">
+              <span class="pro-landing-text12 BodyLargeBold">
+                <span>Login</span>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="pro-landing-container01">
+          <div class="pro-landing-container02">
+            <div class="pro-landing-bannercontent">
+              <div class="pro-landing-frame4846">
+                <div class="pro-landing-frame5183">
+                  <div class="pro-landing-frame5181">
+                    <div class="pro-landing-frame5180">
+                      <span class="pro-landing-text14 DisplayDisplay1">
+                        <span>Test like a Pro.</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <span class="pro-landing-text16 HeadingHeading4Light">
+                  <span>
+                    Hands-on security testers need the best tools for the
+                    job. Tools you have faith in, and enjoy using all day long.
+                  </span>
+                  <br />
+                  <span>The tools that other professionals trust.</span>
+                </span>
+                <div class="pro-landing-frame4847">
+                  <button class="pro-landing-button1">
+                    <span class="pro-landing-text20 BodyLargeBold">
+                      <span>Try for free</span>
+                    </span>
+                  </button>
+                  <button class="pro-landing-button2">
+                    <span class="pro-landing-text22 BodyLargeBold">
+                      <span>Buy - $399</span>
+                    </span>
+                    <img
+                      alt="ChevronRightI121"
+                      src="public/external/chevronrighti121-9g5l.svg"
+                      class="pro-landing-chevron-right"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div class="pro-landing-tasksubmenu">
+                <div class="pro-landing-tasksubmenu1">
+                  <div class="pro-landing-task-item-v2">
+                    <div class="pro-landing-task-item-v2local">
+                      <div class="pro-landing-task-item-v21">
+                        <div class="pro-landing-task-itemmastertemplate-v2">
+                          <div class="pro-landing-frame4869">
+                            <div class="pro-landing-header">
+                              <div class="pro-landing-frame4861">
+                                <div class="pro-landing-container03">
+                                  <span class="pro-landing-text24">
+                                    <span class="pro-landing-text25">
+                                      3. Crawl and audit
+                                    </span>
+                                    <span>of ginandjuice.shop</span>
+                                  </span>
+                                </div>
+                              </div>
+                              <div class="pro-landing-frame4860">
+                                <img
+                                  alt="ButtonsI121"
+                                  src="public/external/buttonsi121-vc5.svg"
+                                  class="pro-landing-buttons"
+                                />
+                                <div class="pro-landing-frame48611">
+                                  <button class="pro-landing-buttons1">
+                                    <img
+                                      alt="IconI121"
+                                      src="public/external/iconi121-jugz.svg"
+                                      class="pro-landing-icon"
+                                    />
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="pro-landing-frame4880">
+                            <div class="pro-landing-frame4879">
+                              <div class="pro-landing-config">
+                                <span class="pro-landing-text27 BodyRegular">
+                                  <span>Crawl and Audit – Lightweight</span>
+                                </span>
+                              </div>
+                              <div class="pro-landing-progress">
+                                <img
+                                  alt="Rectangle460I121"
+                                  src="public/external/rectangle460i121-kzal-200h.png"
+                                  class="pro-landing-rectangle460"
+                                />
+                              </div>
+                              <div class="pro-landing-status">
+                                <div class="pro-landing-icons">
+                                  <img
+                                    alt="IconI121"
+                                    src="public/external/iconi121-3fzo.svg"
+                                    class="pro-landing-icon1"
+                                  />
+                                </div>
+                                <span class="pro-landing-text29 BodyRegular">
+                                  <span>
+                                    Auditing (estimated 2 minutes remaining)
+                                  </span>
+                                </span>
+                              </div>
+                              <div class="pro-landing-current-url">
+                                <div class="pro-landing-icons1">
+                                  <img
+                                    alt="UnionI121"
+                                    src="public/external/unioni121-sxv.svg"
+                                    class="pro-landing-union"
+                                  />
+                                </div>
+                                <span class="pro-landing-text31 BodyRegular">
+                                  <span>
+                                    https://ginandju....catalog/search/9
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                            <div class="pro-landing-frame48801">
+                              <div class="pro-landing-config1">
+                                <span class="pro-landing-text33 BodyRegular">
+                                  <span>Issues:</span>
+                                </span>
+                                <div class="pro-landing-frame4868">
+                                  <div class="pro-landing-frame4858">
+                                    <div class="pro-landing-datacounter">
+                                      <span
+                                        class="pro-landing-text35 SmallBold"
+                                      >
+                                        <span>12</span>
+                                      </span>
+                                    </div>
+                                    <div class="pro-landing-datacounter1">
+                                      <span
+                                        class="pro-landing-text37 SmallBold"
+                                      >
+                                        <span>12</span>
+                                      </span>
+                                    </div>
+                                    <div class="pro-landing-datacounter2">
+                                      <span
+                                        class="pro-landing-text39 SmallBold"
+                                      >
+                                        0
+                                      </span>
+                                    </div>
+                                    <div class="pro-landing-datacounter3">
+                                      <span
+                                        class="pro-landing-text40 SmallBold"
+                                      >
+                                        <span>12</span>
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="pro-landing-frame4865">
+                                <div class="pro-landing-frame4866"></div>
+                              </div>
+                              <div class="pro-landing-frame48661">
+                                <div class="pro-landing-frame48662"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pro-landing-task-item-v22">
+                    <div class="pro-landing-task-item-v2local1">
+                      <div class="pro-landing-task-item-v23">
+                        <div class="pro-landing-task-itemmastertemplate-v21">
+                          <div class="pro-landing-frame48691">
+                            <div class="pro-landing-header1">
+                              <div class="pro-landing-frame48612">
+                                <span class="pro-landing-text42">
+                                  <span class="pro-landing-text43">
+                                    4. Crawl
+                                  </span>
+                                  <span>of ginandjuice.shop</span>
+                                </span>
+                              </div>
+                              <div class="pro-landing-frame48601">
+                                <img
+                                  alt="ButtonsI121"
+                                  src="public/external/buttonsi121-pkai.svg"
+                                  class="pro-landing-buttons2"
+                                />
+                                <div class="pro-landing-frame48613">
+                                  <button class="pro-landing-buttons3">
+                                    <img
+                                      alt="IconI121"
+                                      src="public/external/iconi121-1nhg.svg"
+                                      class="pro-landing-icon2"
+                                    />
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="pro-landing-frame48802">
+                            <div class="pro-landing-frame48791">
+                              <div class="pro-landing-config2">
+                                <span class="pro-landing-text45 BodyRegular">
+                                  <span>Crawl</span>
+                                </span>
+                              </div>
+                              <div class="pro-landing-progress1">
+                                <img
+                                  alt="Rectangle460I121"
+                                  src="public/external/rectangle460i121-3o0c-200h.png"
+                                  class="pro-landing-rectangle4601"
+                                />
+                              </div>
+                              <div class="pro-landing-status1">
+                                <div class="pro-landing-icons2">
+                                  <img
+                                    alt="IconI121"
+                                    src="public/external/iconi121-apwo.svg"
+                                    class="pro-landing-icon3"
+                                  />
+                                </div>
+                                <span class="pro-landing-text47 BodyRegular">
+                                  <span>
+                                    Crawling (estimated 2 minutes remaining)
+                                  </span>
+                                </span>
+                              </div>
+                              <div class="pro-landing-current-url1">
+                                <div class="pro-landing-icons3">
+                                  <img
+                                    alt="UnionI121"
+                                    src="public/external/unioni121-fjhq.svg"
+                                    class="pro-landing-union1"
+                                  />
+                                </div>
+                                <span class="pro-landing-text49 BodyRegular">
+                                  <span>
+                                    https://ginandju....catalog/search/9
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                            <div class="pro-landing-frame48803"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pro-landing-container04">
+            <div class="pro-landing-container05">
+              <div class="pro-landing-frame5148">
+                <img
+                  alt="Frame51478119"
+                  src="public/external/frame51478119-imwa.svg"
+                  class="pro-landing-frame5147"
+                />
+                <span class="pro-landing-text51 BodyRegularBold">
+                  “Burp Suite turns our web security testing into a
+                  comprehensive, seamless process”
+                </span>
+              </div>
+            </div>
+            <div class="pro-landing-container06">
+              <div class="pro-landing-frame51481">
+                <img
+                  alt="Frame51478119"
+                  src="public/external/frame51478119-imwa.svg"
+                  class="pro-landing-frame51471"
+                />
+                <span class="pro-landing-text52 BodyRegularBold">
+                  “SaaS model and AI integration mark a thrilling evolution for
+                  our security”
+                </span>
+              </div>
+            </div>
+            <div class="pro-landing-container07">
+              <div class="pro-landing-frame51482">
+                <img
+                  alt="Frame51478119"
+                  src="public/external/frame51478119-imwa.svg"
+                  class="pro-landing-frame51472"
+                />
+                <span class="pro-landing-text53 BodyRegularBold">
+                  “Burp's automated scanning gives us confidence in our app's
+                  security posture”
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1 class="pro-landing-text54">
+          Find out why 97% of users recommend Burp Suite Pro
+        </h1>
+        <div class="pro-landing-container08">
+          <div class="pro-landing-container09">
+            <div class="pro-landing-frame5504">
+              <div class="pro-landing-magnifyingglass">
+                <div class="pro-landing-frame4836">
+                  <div class="pro-landing-group4832">
+                    <img
+                      alt="VectorI542"
+                      src="public/external/vectori542-ichs.svg"
+                      class="pro-landing-vector"
+                    />
+                  </div>
+                </div>
+                <div class="pro-landing-magnifyingglass1">
+                  <div class="pro-landing-group4842">
+                    <img
+                      alt="magnifyingglass2I542"
+                      src="public/external/magnifyingglass2i542-7qo9c.svg"
+                      class="pro-landing-magnifyingglass2"
+                    />
+                  </div>
+                </div>
+              </div>
+              <span class="pro-landing-text55 HeadingHeading5">
+                Find more vulnerabilities faster
+              </span>
+              <button class="pro-landing-button3">
+                <span class="pro-landing-text56 BodyLargeBold">
+                  <span>Read more</span>
+                </span>
+                <img
+                  alt="ChevronDownI542"
+                  src="public/external/chevrondowni542-4qyd.svg"
+                  class="pro-landing-chevron-down04"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="pro-landing-container10">
+            <div class="pro-landing-frame55041">
+              <div class="pro-landing-professionalapp">
+                <div class="pro-landing-frame48361">
+                  <div class="pro-landing-group48321">
+                    <img
+                      alt="VectorI542"
+                      src="public/external/vectori542-xwr.svg"
+                      class="pro-landing-vector1"
+                    />
+                  </div>
+                </div>
+                <div class="pro-landing-group4837">
+                  <img
+                    alt="VectorI542"
+                    src="public/external/vectori542-mv1c.svg"
+                    class="pro-landing-vector2"
+                  />
+                  <img
+                    alt="VectorI542"
+                    src="public/external/vectori542-mn6.svg"
+                    class="pro-landing-vector3"
+                  />
+                  <img
+                    alt="VectorI542"
+                    src="public/external/vectori542-ihe.svg"
+                    class="pro-landing-vector4"
+                  />
+                </div>
+              </div>
+              <span class="pro-landing-text58 HeadingHeading5">
+                Test like a pro with the trusted industry toolkit
+              </span>
+              <button class="pro-landing-button4">
+                <span class="pro-landing-text59 BodyLargeBold">
+                  <span>Read more</span>
+                </span>
+                <img
+                  alt="ChevronDownI542"
+                  src="public/external/chevrondowni542-4qyd.svg"
+                  class="pro-landing-chevron-down05"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="pro-landing-container11">
+            <div class="pro-landing-frame55042">
+              <div class="pro-landing-magnifyingglass1">
+                <div class="pro-landing-frame48362">
+                  <div class="pro-landing-group48322">
+                    <img
+                      alt="VectorI542"
+                      src="public/external/vectori542-ichs.svg"
+                      class="pro-landing-vector5"
+                    />
+                  </div>
+                </div>
+                <div class="pro-landing-magnifyingglass11">
+                  <div class="pro-landing-group48421">
+                    <img
+                      alt="magnifyingglass2I542"
+                      src="public/Icons/Feature icons/rocket.svg"
+                      class="pro-landing-magnifyingglass21"
+                    />
+                  </div>
+                </div>
+              </div>
+              <span class="pro-landing-text61 HeadingHeading5">
+                Find more vulnerabilities faster
+              </span>
+              <button class="pro-landing-button5">
+                <span class="pro-landing-text62 BodyLargeBold">
+                  <span>Read more</span>
+                </span>
+                <img
+                  alt="ChevronDownI542"
+                  src="public/external/chevrondowni542-4qyd.svg"
+                  class="pro-landing-chevron-down06"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="pro-landing-container12">
+          <h1 class="pro-landing-text64">
+            Take a tour of Burp Suite Professional
+          </h1>
+          <img
+            alt="Screenshot20240510at163813171"
+            src="public/external/screenshot20240510at163813171-gdab-700h.png"
+            class="pro-landing-screenshot20240510at16381"
+          />
+        </div>
+        <h1 class="pro-landing-text65">Find more vulnerabilities faster</h1>
+        <div class="pro-landing-container13">
+          <div class="pro-landing-bannercontent1">
+            <div class="pro-landing-container14">
+              <div
+                class="accordion-colour-open-container accordion-colour-open-root-class-name1"
+              >
+                <div class="accordion-colour-open-accordion">
+                  <div class="accordion-colour-open-frame101">
+                    <img
+                      alt="ChevronUpI317"
+                      src="public/external/chevronupi317-ylrm.svg"
+                      class="accordion-colour-open-chevron-up"
+                    />
+                    <span class="accordion-colour-open-text BodyLarge">
+                      <span>Automate and save time</span>
+                    </span>
+                  </div>
+                  <div class="accordion-colour-open-accordioncontent">
+                    <span class="accordion-colour-open-text2 BodyLarge">
+                      <span>
+                        Smart automation works in concert with expert-designed
+                        manual tools, to save you time. Optimize your workflow,
+                        and do more of what you do best.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="pro-landing-container15">
+                <div class="pro-landing-frame48461">
+                  <div class="pro-landing-container16">
+                    <div
+                      class="pro-landing-type-colour-state-default-expanded-false"
+                    >
+                      <div class="pro-landing-frame101">
+                        <img
+                          alt="ChevronDown1174"
+                          src="public/external/chevrondown1174-kvt.svg"
+                          class="pro-landing-chevron-down07"
+                        />
+                        <span class="pro-landing-text66">
+                          Scan the modern web
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      class="pro-landing-type-colour-state-default-expanded-false1"
+                    >
+                      <div class="pro-landing-frame1011">
+                        <img
+                          alt="ChevronDown1174"
+                          src="public/external/chevrondown1174-kvt.svg"
+                          class="pro-landing-chevron-down08"
+                        />
+                        <span class="pro-landing-text67">
+                          Minimize false positives
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              alt="image163174"
+              src="public/external/image163174-1kum-400h.png"
+              class="pro-landing-image16"
+            />
+          </div>
+        </div>
+        <div class="pro-landing-container17">
+          <h1 class="pro-landing-text68">
+            Test like a pro - with the industry's trusted toolkit
+          </h1>
+          <div class="pro-landing-container18">
+            <div class="pro-landing-bannercontent2">
+              <img
+                alt="Untitled11I317"
+                src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b56d38bc-b39e-4bf0-b545-1da46bcc774e/980c840f-277c-46eb-b3ea-aa0341b71e9a?org_if_sml=180040&amp;force_format=original"
+                class="pro-landing-untitled11"
+              />
+              <div class="pro-landing-container19"></div>
+              <div class="pro-landing-frame48462">
+                <div class="pro-landing-container20">
+                  <div
+                    class="accordion-white-open-container accordion-white-open-root-class-name1"
+                  >
+                    <div class="accordion-white-open-accordion">
+                      <div class="accordion-white-open-frame101">
+                        <img
+                          alt="ChevronUpI317"
+                          src="public/external/chevronupi317-mdwp.svg"
+                          class="accordion-white-open-chevron-up"
+                        />
+                        <span class="accordion-white-open-text BodyLarge">
+                          <span>Find vulnerabilities others can't</span>
+                        </span>
+                      </div>
+                      <div class="accordion-white-open-accordioncontent">
+                        <span class="accordion-white-open-text2 BodyLarge">
+                          <span class="accordion-white-open-text3">
+                            Push the boundaries of web security testing - by
+                            being first to benefit from the work of&nbsp;
+                          </span>
+                          <span class="accordion-white-open-text4">
+                            PortSwigger Research
+                          </span>
+                          <span>
+                            . Frequent releases keep you ahead of the curve.
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="accordion-white-closed-container accordion-white-closed-root-class-name1"
+                  >
+                    <div class="accordion-white-closed-accordion">
+                      <div class="accordion-white-closed-frame101">
+                        <img
+                          alt="ChevronDownI317"
+                          src="public/external/chevrondowni317-9dnr.svg"
+                          class="accordion-white-closed-chevron-down"
+                        />
+                        <span class="accordion-white-closed-text BodyLarge">
+                          <span>Be more productive</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pro-landing-container21">
+                    <div class="pro-landing-accordion">
+                      <div class="pro-landing-frame1012">
+                        <img
+                          alt="ChevronDownI317"
+                          src="public/external/chevrondowni317-9dnr.svg"
+                          class="pro-landing-chevron-down09"
+                        />
+                        <span class="pro-landing-text69 BodyLarge">
+                          Share your findings more easily
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pro-landing-container22">
+                    <div class="pro-landing-accordion1"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1 class="pro-landing-text70">Extend your capabilities</h1>
+        <div class="pro-landing-container23">
+          <div class="pro-landing-bannercontent3">
+            <div class="pro-landing-container24"></div>
+            <div class="pro-landing-container25">
+              <div class="pro-landing-container26">
+                <div class="pro-landing-accordion2">
+                  <div class="pro-landing-frame1013">
+                    <img
+                      alt="ChevronUpI317"
+                      src="public/external/chevronupi317-ylrm.svg"
+                      class="pro-landing-chevron-up"
+                    />
+                    <span class="pro-landing-text71">
+                      Adapt your toolkit to suit your needs
+                    </span>
+                  </div>
+                  <div class="pro-landing-accordioncontent">
+                    <span class="pro-landing-text72">
+                      Share in a wealth of knowledge, extend Burp Scanner with
+                      BChecks, and access hundreds of pre-written&nbsp;BApp
+                      extensions, as a member of Burp Suite Professional's huge
+                      user community.
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="pro-landing-container27">
+                <div class="pro-landing-frame48463">
+                  <div class="pro-landing-container28">
+                    <div
+                      class="pro-landing-type-colour-state-default-expanded-false2"
+                    >
+                      <div class="pro-landing-frame1014">
+                        <img
+                          alt="ChevronDown1174"
+                          src="public/external/chevrondown1174-kvt.svg"
+                          class="pro-landing-chevron-down10"
+                        />
+                        <span class="pro-landing-text73">
+                          Create your own functionality
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      class="pro-landing-type-colour-state-default-expanded-false3"
+                    >
+                      <div class="pro-landing-frame1015">
+                        <img
+                          alt="ChevronDown1174"
+                          src="public/external/chevrondown1174-kvt.svg"
+                          class="pro-landing-chevron-down11"
+                        />
+                        <span class="pro-landing-text74">
+                          Customize the way you work
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              alt="image173175"
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/b56d38bc-b39e-4bf0-b545-1da46bcc774e/65871630-ffe5-4aae-9c5c-0b38e567406f?org_if_sml=158412&amp;force_format=original"
+              class="pro-landing-image17"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

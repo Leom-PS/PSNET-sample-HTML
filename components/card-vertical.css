@@ -1,0 +1,74 @@
+.card-vertical-container {
+  width: auto;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.card-vertical-frame5484 {
+  gap: 12px;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: 28px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(223, 224, 225, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.card-vertical-image9 {
+  width: auto;
+  height: 220px;
+  align-self: stretch;
+}
+.card-vertical-tags {
+  gap: 8px;
+  height: 20px;
+  display: flex;
+  padding: 4px 8px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: rgba(19, 83, 185, 1);
+}
+.card-vertical-text {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.card-vertical-text2 {
+  fill: var(--dl-color-text-headingnavy);
+  color: var(--dl-color-text-headingnavy);
+  height: auto;
+  text-align: left;
+  line-height: 129.99999523162842%;
+}
+.card-vertical-text4 {
+  color: rgba(116, 117, 116, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 129.99999523162842%;
+}
+.card-vertical-button {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-vertical-text6 {
+  color: rgba(216, 65, 4, 1);
+  height: auto;
+  text-align: center;
+  line-height: 139.9999976158142%;
+}
+.card-vertical-chevron-right {
+  width: 16px;
+  height: 16px;
+}

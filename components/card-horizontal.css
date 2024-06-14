@@ -1,0 +1,88 @@
+.card-horizontal-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.card-horizontal-frame5495 {
+  gap: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 28px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(223, 224, 225, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.card-horizontal-frame54951 {
+  gap: 20px;
+  width: 536px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.card-horizontal-tags {
+  gap: 8px;
+  height: 20px;
+  display: flex;
+  padding: 4px 8px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: rgba(19, 83, 185, 1);
+}
+.card-horizontal-text {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: left;
+  line-height: 150%;
+}
+.card-horizontal-text2 {
+  color: rgba(6, 7, 56, 1);
+  height: auto;
+  text-align: left;
+  line-height: 129.99999523162842%;
+}
+.card-horizontal-text4 {
+  color: rgba(116, 117, 116, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 129.99999523162842%;
+}
+.card-horizontal-button {
+  gap: 8px;
+  height: 40px;
+  display: flex;
+  padding: 12px 24px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(216, 65, 4, 1);
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.card-horizontal-text6 {
+  color: rgba(216, 65, 4, 1);
+  height: auto;
+  text-align: center;
+  line-height: 139.9999976158142%;
+}
+.card-horizontal-chevron-right {
+  width: 16px;
+  height: 16px;
+}
+.card-horizontal-image10 {
+  width: 526px;
+  height: 220px;
+}

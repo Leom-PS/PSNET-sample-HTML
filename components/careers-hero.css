@@ -1,0 +1,83 @@
+.careers-hero-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.careers-hero-bannercontent {
+  gap: 80px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.careers-hero-frame4846 {
+  gap: 36px;
+  width: 598px;
+  display: flex;
+  padding: 60px 0 0;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.careers-hero-frame5183 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.careers-hero-frame5181 {
+  gap: 12px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.careers-hero-frame5180 {
+  gap: 36px;
+  display: flex;
+  align-items: flex-start;
+}
+.careers-hero-text {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  height: auto;
+  text-align: left;
+  line-height: 120.00000476837158%;
+}
+.careers-hero-image {
+  width: 200px;
+  object-fit: cover;
+}
+.careers-hero-container1 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media(max-width: 1600px) {
+  .careers-hero-bannercontent {
+    gap: var(--dl-space-space-threeunits);
+    width: 1136px;
+  }
+  .careers-hero-text {
+    color: #ff6633;
+  }
+  .careers-hero-text1 {
+    color: #001350;
+  }
+  .careers-hero-description {
+    color: #001350;
+  }
+  .careers-hero-image {
+    width: 665px;
+    height: 339px;
+  }
+}

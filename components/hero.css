@@ -1,0 +1,110 @@
+.hero-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-bannercontent {
+  gap: 80px;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.hero-frame4846 {
+  gap: 36px;
+  width: 597px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-frame5183 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-frame5181 {
+  gap: 12px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hero-frame5180 {
+  gap: 36px;
+  display: flex;
+  align-items: flex-start;
+}
+.hero-text {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: left;
+  line-height: 120.00000476837158%;
+}
+.hero-text02 {
+  color: var(--dl-color-default-whiteffffff);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 129.99999523162842%;
+}
+.hero-frame4847 {
+  gap: 20px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.hero-button {
+  gap: 8px;
+  height: 40px;
+  display: flex;
+  padding: 12px 24px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 8px;
+  justify-content: center;
+}
+.hero-text06 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: center;
+  line-height: 139.9999976158142%;
+}
+.hero-button1 {
+  gap: 8px;
+  height: 40px;
+  display: flex;
+  padding: 12px 24px;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.hero-text08 {
+  color: rgba(6, 7, 56, 1);
+  height: auto;
+  text-align: center;
+  line-height: 139.9999976158142%;
+}
+.hero-chevron-right {
+  width: 16px;
+  height: 16px;
+}
+.hero-tasksubmenu1 {
+  width: 461px;
+  height: 374px;
+}

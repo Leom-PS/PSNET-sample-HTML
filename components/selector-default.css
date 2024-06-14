@@ -1,0 +1,116 @@
+.selector-default-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.selector-default-state-default {
+  gap: 10px;
+  width: 220px;
+  height: auto;
+  display: flex;
+  padding: 20px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(223, 224, 225, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.selector-default-frame18 {
+  gap: 20px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.selector-default-frame20 {
+  gap: 10px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.selector-default-text {
+  fill: var(--dl-color-text-headinggrey);
+  color: var(--dl-color-text-headinggrey);
+  height: auto;
+  flex-grow: 1;
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.selector-default-text01 {
+  color: rgba(0, 162, 185, 1);
+  height: auto;
+  text-align: right;
+  line-height: 139.9999976158142%;
+}
+.selector-default-text03 {
+  color: rgba(51, 51, 50, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400px;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}
+.selector-default-text05 {
+  color: rgb(29, 28, 26);
+  width: 174px;
+  height: auto;
+  font-size: 13px;
+  font-style: normal;
+  text-align: left;
+  line-height: 139.999998%;
+  letter-spacing: 0em;
+}
+.selector-default-text06 {
+  color: var(--dl-color-text-headinggrey);
+}
+.selector-default-text07 {
+  color: var(--dl-color-text-headinggrey);
+  font-size: 13px;
+  font-style: normal;
+  letter-spacing: 0em;
+}
+.selector-default-text08 {
+  color: var(--dl-color-text-bodysecondary);
+  font-size: 13px;
+  font-style: normal;
+  letter-spacing: 0em;
+}
+.selector-default-frame21 {
+  gap: 10px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+.selector-default-text09 {
+  fill: var(--dl-color-text-headinggrey);
+  color: var(--dl-color-text-headinggrey);
+  height: auto;
+  flex-grow: 1;
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+  letter-spacing: 0em;
+}

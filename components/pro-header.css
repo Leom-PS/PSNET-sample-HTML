@@ -1,0 +1,140 @@
+.pro-header-pro-header {
+  gap: 80px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 12px 0;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(76, 79, 177, 1);
+}
+.pro-header-group4846 {
+  width: 249px;
+  height: 42px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.pro-header-logos-portswigger {
+  top: 0px;
+  left: 0px;
+  width: 249px;
+  height: 42px;
+  position: absolute;
+}
+.pro-header-navigation {
+  gap: 40px;
+  display: flex;
+  align-items: center;
+}
+.pro-header-products {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.pro-header-text {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: center;
+  line-height: 139.9999976158142%;
+}
+.pro-header-chevron-down {
+  width: 16px;
+  height: 16px;
+}
+.pro-header-solutions {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.pro-header-text02 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: center;
+  line-height: 139.9999976158142%;
+}
+.pro-header-chevron-down1 {
+  width: 16px;
+  height: 16px;
+}
+.pro-header-research {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.pro-header-text04 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: center;
+  line-height: 139.9999976158142%;
+}
+.pro-header-academy {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.pro-header-text06 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: center;
+  line-height: 139.9999976158142%;
+}
+.pro-header-support {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.pro-header-text08 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: center;
+  line-height: 139.9999976158142%;
+}
+.pro-header-chevron-down2 {
+  width: 16px;
+  height: 16px;
+}
+.pro-header-resources {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.pro-header-text10 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  text-align: center;
+  line-height: 139.9999976158142%;
+}
+.pro-header-chevron-down3 {
+  width: 16px;
+  height: 16px;
+}
+.pro-header-button {
+  gap: 8px;
+  height: 40px;
+  display: flex;
+  padding: 12px 24px;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(116, 117, 116, 1);
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.pro-header-text12 {
+  color: rgba(51, 51, 50, 1);
+  height: auto;
+  text-align: center;
+  line-height: 139.9999976158142%;
+}
