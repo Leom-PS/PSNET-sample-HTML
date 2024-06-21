@@ -496,6 +496,28 @@
   z-index: -1;
   transform: scaleX(1);
 }
+
+
+
+.accordion-input:checked~div:nth-of-type(2) {
+  display: block;
+}
+.accordion-input:checked~section2 {
+  display: block;
+}
+.accordion-input:checked~section1 {
+  display: block;
+}
+.accordion-input:checked ~div  #accordionImg {
+  transform: rotate(180deg);
+}
+.accordion-input:checked~#openImg1 {
+  display: block;
+}
+.accordion-icon {
+  transition: transform 400ms ease-in-out;
+}
+
 .MobileHeadingHeading3 {
   font-size: 26px;
   font-style: normal;

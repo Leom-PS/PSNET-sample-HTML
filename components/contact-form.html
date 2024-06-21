@@ -34,16 +34,6 @@
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
       data-tag="font"
     />
@@ -77,7 +67,8 @@
             <form
               action="http://"
               method="POST"
-              class="thq-card contact-form-form"
+              enctype="application/x-www-form-urlencoded"
+              class="contact-form-form thq-card"
             >
               <div class="contact-form-input">
                 <label for="contact-form-3-name" class="thq-body-small">
@@ -88,7 +79,7 @@
                   id="contact-form-3-name"
                   sfendpoint=""
                   placeholder="Name"
-                  class="thq-input"
+                  class="contact-form-text-input thq-input"
                 />
               </div>
               <div class="contact-form-input1">
@@ -100,7 +91,7 @@
                   id="contact-form-3-email"
                   required="true"
                   placeholder="Email"
-                  class="thq-input"
+                  class="contact-form-text-input1 thq-input"
                 />
               </div>
               <div class="contact-form-container">
@@ -111,7 +102,7 @@
                   id="contact-form-3-message"
                   rows="3"
                   placeholder="Enter your message"
-                  class="thq-input"
+                  class="contact-form-textarea thq-input"
                 ></textarea>
               </div>
               <div class="contact-form-container1">

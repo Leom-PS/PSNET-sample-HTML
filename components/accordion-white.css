@@ -1,0 +1,61 @@
+.accordion-white-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.accordion-white-accordion {
+  gap: 16px;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.accordion-white-open {
+  display: none;
+}
+.accordion-white-frame101 {
+  gap: 8px;
+  display: flex;
+  padding: 12px 16px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  padding-left: 12px 16px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.accordion-white-chevron-down {
+  width: 24px;
+  height: 24px;
+}
+.accordion-white-accordioncontent {
+  gap: 10px;
+  display: none;
+  padding: 0 16px 12px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  animation-name: none;
+  animation-delay: 0s;
+  justify-content: center;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.accordion-white-text {
+  color: #1d1c1a;
+  height: auto;
+  flex-grow: 1;
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  font-family: "Roboto";
+  line-height: 139.999998%;
+  letter-spacing: 0em;
+}

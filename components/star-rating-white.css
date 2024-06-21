@@ -1,0 +1,51 @@
+.star-rating-white-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.star-rating-white-frame5148 {
+  gap: 8px;
+  width: 342px;
+  height: 123px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.star-rating-white-frame5147 {
+  width: 120px;
+  height: 24px;
+}
+.star-rating-white-text {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  width: auto;
+  height: auto;
+  align-self: stretch;
+  text-align: center;
+  line-height: 24px;
+}
+
+
+
+@media(max-width: 1600px) {
+  .star-rating-white-text {
+    fill: var(--dl-color-theme-secondary1);
+    color: var(--dl-color-theme-secondary1);
+  }
+  .star-rating-white-root-class-name {
+    fill: var(--dl-color-theme-primary1);
+    color: var(--dl-color-theme-primary1);
+  }
+  .star-rating-white-root-class-name1 {
+    fill: var(--dl-color-theme-secondary1);
+    color: var(--dl-color-theme-secondary1);
+  }
+  .star-rating-white-root-class-name2 {
+    fill: var(--dl-color-theme-secondary1);
+    color: var(--dl-color-theme-secondary1);
+  }
+}
